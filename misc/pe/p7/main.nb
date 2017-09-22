@@ -1,0 +1,55 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      1139,         46]
+NotebookOptionsPosition[       830,         30]
+NotebookOutlinePosition[      1174,         45]
+CellTagsIndexPosition[      1131,         42]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Prime", "[", "10001", "]"}]], "Input",
+ CellChangeTimes->{{3.716527031237805*^9, 3.716527036954805*^9}}],
+
+Cell[BoxData["104743"], "Output",
+ CellChangeTimes->{{3.7165271097598047`*^9, 3.7165271333208046`*^9}}]
+}, Open  ]]
+},
+WindowSize->{775, 873},
+WindowMargins->{{504, Automatic}, {34, Automatic}},
+FrontEndVersion->"10.1 for Microsoft Windows (64-bit) (March 23, 2015)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 128, 2, 31, "Input"],
+Cell[711, 26, 103, 1, 31, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

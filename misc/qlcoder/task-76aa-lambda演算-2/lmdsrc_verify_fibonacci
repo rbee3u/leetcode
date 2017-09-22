@@ -1,0 +1,39 @@
+\n.
+    (((cond ((less n) 6))
+    \_.
+        ((div ((add ((mul n) n)) ((add 5) n))) 7)
+    )
+    \_.
+        (\mul2.(
+        \f.(((f f) ((div n) 2)) \a.\b.((mul a) ((sub (mul2 b)) a)))
+        \f.\n.\s.
+            (((cond ((less n) 8))
+            \_.
+                (((cond ((less n) 7))
+                \_.
+                    (((cond ((less n) 6))
+                    \_.
+                        (((cond ((less n) 5))
+                        \_.((s 3) 5))
+                        \_.((s 5) 8)))
+                    \_.((s 8) ((add 5) 8))))
+                \_.((s ((add 5) 8)) ((mul 3) 7))))
+            \_.
+                (\divn2.
+                (((cond ((less (mul2 divn2)) n))
+                \_.
+                    (((f f) divn2) \a.\b.((s
+                        ((add ((mul a) a)) ((mul b) b)))
+                        ((mul b) ((add (mul2 a)) b)))
+                    )
+                )
+                \_.
+                    (((f f) divn2) \a.\b.((s
+                        ((mul a) ((sub (mul2 b)) a)))
+                        ((add ((mul a) a)) ((mul b) b)))
+                    )
+                )
+                ((div n) 2))
+            )
+        ) (mul 2))
+    )
