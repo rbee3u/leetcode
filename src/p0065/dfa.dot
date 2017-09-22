@@ -1,0 +1,32 @@
+digraph dfa {
+	rankdir = LR;
+	S1 [shape = circle];
+	S2 [shape = circle];
+	S3 [shape = doublecircle];
+	S4 [shape = circle];
+	S5 [shape = doublecircle];
+	S6 [shape = circle];
+	S7 [shape = circle];
+	S8 [shape = doublecircle];
+	S9 [shape = doublecircle];
+	S1 -> S1 [label = "blank( )"];
+	S1 -> S2 [label = "sign(+/-)"];
+	S1 -> S3 [label = "digit(0-9)"];
+	S2 -> S3 [label = "digit(0-9)"];
+	S3 -> S3 [label = "digit(0-9)"];
+	S1 -> S4 [label = "dot(.)"];
+	S2 -> S4 [label = "dot(.)"];
+	S3 -> S5 [label = "dot(.)"];
+	S4 -> S5 [label = "digit(0-9)"];
+	S5 -> S5 [label = "digit(0-9)"];
+	S3 -> S6 [label = "exp(e)"];
+	S5 -> S6 [label = "exp(e)"];
+	S6 -> S7 [label = "sign(+/-)"];
+	S6 -> S8 [label = "digit(0-9)"];
+	S7 -> S8 [label = "digit(0-9)"];
+	S8 -> S8 [label = "digit(0-9)"];
+	S3 -> S9 [label = "blank( )"];
+	S5 -> S9 [label = "blank( )"];
+	S8 -> S9 [label = "blank( )"];
+	S9 -> S9 [label = "blank( )"];
+}
