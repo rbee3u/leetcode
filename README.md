@@ -45,6 +45,7 @@
 | 0041 | [First Missing Positive]( https://leetcode.com/problems/first-missing-positive/ )  | [C++]( src/p0041 ) |
 | 0042 | [Trapping Rain Water]( https://leetcode.com/problems/trapping-rain-water/ )  | [C++/Go/Java]( src/p0042 ) |
 | 0044 | [Wildcard Matching]( https://leetcode.com/problems/wildcard-matching/ )  | [C++]( src/p0044 ) |
+| 0045 | [Jump Game II]( https://leetcode.com/problems/jump-game-ii/ )  | []( src/p0045 ) |
 | 0046 | [Permutations]( https://leetcode.com/problems/permutations/ )  | [C++]( src/p0046 ) |
 | 0048 | [Rotate Image]( https://leetcode.com/problems/rotate-image/ )  | [Go]( src/p0048 ) |
 | 0049 | [Group Anagrams]( https://leetcode.com/problems/group-anagrams/ )  | [Go]( src/p0049 ) |
@@ -266,7 +267,7 @@
 | 0561 | [Array Partition I]( https://leetcode.com/problems/array-partition-i/ )  | [C++]( src/p0561 ) |
 | 0564 | [Find the Closest Palindrome]( https://leetcode.com/problems/find-the-closest-palindrome/ )  | [Python]( src/p0564 ) |
 | 0566 | [Reshape the Matrix]( https://leetcode.com/problems/reshape-the-matrix/ )  | [C++]( src/p0566 ) |
-| 0572 | [Subtree of Another Tree]( https://leetcode.com/problems/subtree-of-another-tree/ )  | [C++/Go]( src/p0572 ) |
+| 0572 | [Subtree of Another Tree]( https://leetcode.com/problems/subtree-of-another-tree/ )  | [Go]( src/p0572 ) |
 | 0578 | [Get Highest Answer Rate Question]( https://leetcode.com/problems/get-highest-answer-rate-question/ )  | [C++]( src/p0578 ) |
 | 0581 | [Shortest Unsorted Continuous Subarray]( https://leetcode.com/problems/shortest-unsorted-continuous-subarray/ )  | [Go]( src/p0581 ) |
 | 0595 | [Big Countries]( https://leetcode.com/problems/big-countries/ )  | [SQL]( src/p0595 ) |

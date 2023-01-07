@@ -2,7 +2,6 @@
 import json
 import os
 from urllib.parse import quote
-from pipe import *
 
 # 语言及其对应子目录名称
 language_subs = [
@@ -49,22 +48,15 @@ def fmt_row(row):
 
 
 if __name__ == '__main__':
-    (__file__
-     | Pipe(os.path.realpath)
-     | Pipe(os.path.dirname)
-     | Pipe(os.chdir)
-     )
+    os.chdir(os.path.dirname(os.path.realpath(__file__)))
+
     outfile = open('README.md', 'w')
     outfile.write('# LeetCode Solutions\n\n')
     outfile.write('| Index | Title | Solution |\n')
     outfile.write('| :---: | :---- | :------: |\n')
-    (os.listdir('src')
-     | select(lambda p: os.path.join('src', p))
-     | where(os.path.isdir)
-     | select(get_row)
-     | sort
-     | select(fmt_row)
-     | Pipe('\n'.join)
-     | Pipe(outfile.write)
-     | Pipe(lambda _: print('Done!'))
-     )
+
+    subs = [os.path.join('src', p) for p in os.listdir('src')]
+    rows = sorted([get_row(sub) for sub in subs])
+    outfile.write('\n'.join([fmt_row(row) for row in rows]))
+
+    print('Done!')

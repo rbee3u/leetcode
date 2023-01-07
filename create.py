@@ -1,7 +1,8 @@
 # -*- coding:utf-8 -*-
-import os, sys, json, shutil
+import json
+import os
+import sys
 import urllib.request
-from bs4 import BeautifulSoup
 
 if __name__ == '__main__':
     os.chdir(os.path.dirname(os.path.realpath(__file__)))
