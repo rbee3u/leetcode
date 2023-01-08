@@ -45,7 +45,7 @@
 | 0041 | [First Missing Positive]( https://leetcode.com/problems/first-missing-positive/ )  | [C++]( src/p0041 ) |
 | 0042 | [Trapping Rain Water]( https://leetcode.com/problems/trapping-rain-water/ )  | [C++/Go/Java]( src/p0042 ) |
 | 0044 | [Wildcard Matching]( https://leetcode.com/problems/wildcard-matching/ )  | [C++]( src/p0044 ) |
-| 0045 | [Jump Game II]( https://leetcode.com/problems/jump-game-ii/ )  | []( src/p0045 ) |
+| 0045 | [Jump Game II]( https://leetcode.com/problems/jump-game-ii/ )  | [C++]( src/p0045 ) |
 | 0046 | [Permutations]( https://leetcode.com/problems/permutations/ )  | [C++]( src/p0046 ) |
 | 0048 | [Rotate Image]( https://leetcode.com/problems/rotate-image/ )  | [Go]( src/p0048 ) |
 | 0049 | [Group Anagrams]( https://leetcode.com/problems/group-anagrams/ )  | [Go]( src/p0049 ) |
